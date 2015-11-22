@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78D9AE041C02776B00614645 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D9AE031C02776B00614645 /* main.m */; };
+		78D9AE071C02776B00614645 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D9AE061C02776B00614645 /* AppDelegate.m */; };
+		78D9AE0A1C02776B00614645 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D9AE091C02776B00614645 /* ViewController.m */; };
+		78D9AE0D1C02776B00614645 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78D9AE0B1C02776B00614645 /* Main.storyboard */; };
+		78D9AE0F1C02776B00614645 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78D9AE0E1C02776B00614645 /* Assets.xcassets */; };
+		78D9AE121C02776B00614645 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78D9AE101C02776B00614645 /* LaunchScreen.storyboard */; };
+		78D9AE1D1C02776B00614645 /* yuanTipGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D9AE1C1C02776B00614645 /* yuanTipGeneratorTests.m */; };
+		78D9AE281C02776B00614645 /* yuanTipGeneratorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D9AE271C02776B00614645 /* yuanTipGeneratorUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78D9AE191C02776B00614645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78D9ADF71C02776B00614645 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78D9ADFE1C02776B00614645;
+			remoteInfo = yuanTipGenerator;
+		};
+		78D9AE241C02776B00614645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78D9ADF71C02776B00614645 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78D9ADFE1C02776B00614645;
+			remoteInfo = yuanTipGenerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78D9ADFF1C02776B00614645 /* yuanTipGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yuanTipGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D9AE031C02776B00614645 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78D9AE051C02776B00614645 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		78D9AE061C02776B00614645 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		78D9AE081C02776B00614645 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		78D9AE091C02776B00614645 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		78D9AE0C1C02776B00614645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78D9AE0E1C02776B00614645 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78D9AE111C02776B00614645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78D9AE131C02776B00614645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78D9AE181C02776B00614645 /* yuanTipGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yuanTipGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D9AE1C1C02776B00614645 /* yuanTipGeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yuanTipGeneratorTests.m; sourceTree = "<group>"; };
+		78D9AE1E1C02776B00614645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78D9AE231C02776B00614645 /* yuanTipGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yuanTipGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D9AE271C02776B00614645 /* yuanTipGeneratorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yuanTipGeneratorUITests.m; sourceTree = "<group>"; };
+		78D9AE291C02776B00614645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78D9ADFC1C02776B00614645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D9AE151C02776B00614645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D9AE201C02776B00614645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78D9ADF61C02776B00614645 = {
+			isa = PBXGroup;
+			children = (
+				78D9AE011C02776B00614645 /* yuanTipGenerator */,
+				78D9AE1B1C02776B00614645 /* yuanTipGeneratorTests */,
+				78D9AE261C02776B00614645 /* yuanTipGeneratorUITests */,
+				78D9AE001C02776B00614645 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78D9AE001C02776B00614645 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78D9ADFF1C02776B00614645 /* yuanTipGenerator.app */,
+				78D9AE181C02776B00614645 /* yuanTipGeneratorTests.xctest */,
+				78D9AE231C02776B00614645 /* yuanTipGeneratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78D9AE011C02776B00614645 /* yuanTipGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				78D9AE051C02776B00614645 /* AppDelegate.h */,
+				78D9AE061C02776B00614645 /* AppDelegate.m */,
+				78D9AE081C02776B00614645 /* ViewController.h */,
+				78D9AE091C02776B00614645 /* ViewController.m */,
+				78D9AE0B1C02776B00614645 /* Main.storyboard */,
+				78D9AE0E1C02776B00614645 /* Assets.xcassets */,
+				78D9AE101C02776B00614645 /* LaunchScreen.storyboard */,
+				78D9AE131C02776B00614645 /* Info.plist */,
+				78D9AE021C02776B00614645 /* Supporting Files */,
+			);
+			path = yuanTipGenerator;
+			sourceTree = "<group>";
+		};
+		78D9AE021C02776B00614645 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78D9AE031C02776B00614645 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78D9AE1B1C02776B00614645 /* yuanTipGeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				78D9AE1C1C02776B00614645 /* yuanTipGeneratorTests.m */,
+				78D9AE1E1C02776B00614645 /* Info.plist */,
+			);
+			path = yuanTipGeneratorTests;
+			sourceTree = "<group>";
+		};
+		78D9AE261C02776B00614645 /* yuanTipGeneratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				78D9AE271C02776B00614645 /* yuanTipGeneratorUITests.m */,
+				78D9AE291C02776B00614645 /* Info.plist */,
+			);
+			path = yuanTipGeneratorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78D9ADFE1C02776B00614645 /* yuanTipGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78D9AE2C1C02776B00614645 /* Build configuration list for PBXNativeTarget "yuanTipGenerator" */;
+			buildPhases = (
+				78D9ADFB1C02776B00614645 /* Sources */,
+				78D9ADFC1C02776B00614645 /* Frameworks */,
+				78D9ADFD1C02776B00614645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yuanTipGenerator;
+			productName = yuanTipGenerator;
+			productReference = 78D9ADFF1C02776B00614645 /* yuanTipGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78D9AE171C02776B00614645 /* yuanTipGeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78D9AE2F1C02776B00614645 /* Build configuration list for PBXNativeTarget "yuanTipGeneratorTests" */;
+			buildPhases = (
+				78D9AE141C02776B00614645 /* Sources */,
+				78D9AE151C02776B00614645 /* Frameworks */,
+				78D9AE161C02776B00614645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78D9AE1A1C02776B00614645 /* PBXTargetDependency */,
+			);
+			name = yuanTipGeneratorTests;
+			productName = yuanTipGeneratorTests;
+			productReference = 78D9AE181C02776B00614645 /* yuanTipGeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		78D9AE221C02776B00614645 /* yuanTipGeneratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78D9AE321C02776B00614645 /* Build configuration list for PBXNativeTarget "yuanTipGeneratorUITests" */;
+			buildPhases = (
+				78D9AE1F1C02776B00614645 /* Sources */,
+				78D9AE201C02776B00614645 /* Frameworks */,
+				78D9AE211C02776B00614645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78D9AE251C02776B00614645 /* PBXTargetDependency */,
+			);
+			name = yuanTipGeneratorUITests;
+			productName = yuanTipGeneratorUITests;
+			productReference = 78D9AE231C02776B00614645 /* yuanTipGeneratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78D9ADF71C02776B00614645 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "John DeLaTorre";
+				TargetAttributes = {
+					78D9ADFE1C02776B00614645 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					78D9AE171C02776B00614645 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 78D9ADFE1C02776B00614645;
+					};
+					78D9AE221C02776B00614645 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 78D9ADFE1C02776B00614645;
+					};
+				};
+			};
+			buildConfigurationList = 78D9ADFA1C02776B00614645 /* Build configuration list for PBXProject "yuanTipGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78D9ADF61C02776B00614645;
+			productRefGroup = 78D9AE001C02776B00614645 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78D9ADFE1C02776B00614645 /* yuanTipGenerator */,
+				78D9AE171C02776B00614645 /* yuanTipGeneratorTests */,
+				78D9AE221C02776B00614645 /* yuanTipGeneratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78D9ADFD1C02776B00614645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D9AE121C02776B00614645 /* LaunchScreen.storyboard in Resources */,
+				78D9AE0F1C02776B00614645 /* Assets.xcassets in Resources */,
+				78D9AE0D1C02776B00614645 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D9AE161C02776B00614645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D9AE211C02776B00614645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78D9ADFB1C02776B00614645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D9AE0A1C02776B00614645 /* ViewController.m in Sources */,
+				78D9AE071C02776B00614645 /* AppDelegate.m in Sources */,
+				78D9AE041C02776B00614645 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D9AE141C02776B00614645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D9AE1D1C02776B00614645 /* yuanTipGeneratorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D9AE1F1C02776B00614645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D9AE281C02776B00614645 /* yuanTipGeneratorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78D9AE1A1C02776B00614645 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78D9ADFE1C02776B00614645 /* yuanTipGenerator */;
+			targetProxy = 78D9AE191C02776B00614645 /* PBXContainerItemProxy */;
+		};
+		78D9AE251C02776B00614645 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78D9ADFE1C02776B00614645 /* yuanTipGenerator */;
+			targetProxy = 78D9AE241C02776B00614645 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78D9AE0B1C02776B00614645 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78D9AE0C1C02776B00614645 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78D9AE101C02776B00614645 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78D9AE111C02776B00614645 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78D9AE2A1C02776B00614645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		78D9AE2B1C02776B00614645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78D9AE2D1C02776B00614645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = yuanTipGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SkyReach.yuanTipGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		78D9AE2E1C02776B00614645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = yuanTipGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SkyReach.yuanTipGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		78D9AE301C02776B00614645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = yuanTipGeneratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SkyReach.yuanTipGeneratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yuanTipGenerator.app/yuanTipGenerator";
+			};
+			name = Debug;
+		};
+		78D9AE311C02776B00614645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = yuanTipGeneratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SkyReach.yuanTipGeneratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yuanTipGenerator.app/yuanTipGenerator";
+			};
+			name = Release;
+		};
+		78D9AE331C02776B00614645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = yuanTipGeneratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SkyReach.yuanTipGeneratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = yuanTipGenerator;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		78D9AE341C02776B00614645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = yuanTipGeneratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SkyReach.yuanTipGeneratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = yuanTipGenerator;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78D9ADFA1C02776B00614645 /* Build configuration list for PBXProject "yuanTipGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78D9AE2A1C02776B00614645 /* Debug */,
+				78D9AE2B1C02776B00614645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78D9AE2C1C02776B00614645 /* Build configuration list for PBXNativeTarget "yuanTipGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78D9AE2D1C02776B00614645 /* Debug */,
+				78D9AE2E1C02776B00614645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		78D9AE2F1C02776B00614645 /* Build configuration list for PBXNativeTarget "yuanTipGeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78D9AE301C02776B00614645 /* Debug */,
+				78D9AE311C02776B00614645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		78D9AE321C02776B00614645 /* Build configuration list for PBXNativeTarget "yuanTipGeneratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78D9AE331C02776B00614645 /* Debug */,
+				78D9AE341C02776B00614645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78D9ADF71C02776B00614645 /* Project object */;
+}
