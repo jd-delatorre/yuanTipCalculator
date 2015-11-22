@@ -1,25 +1,122 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Total Check" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O7f-Vs-Cuh">
+                                <rect key="frame" x="20" y="28" width="335" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="O86-Sc-a3R">
+                                <rect key="frame" x="20" y="57" width="335" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Number of Diners" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LgC-SP-Tj6">
+                                <rect key="frame" x="20" y="95" width="335" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="drn-w3-zy5">
+                                <rect key="frame" x="20" y="124" width="335" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="How Was The Service?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Dx-Mk-O7l">
+                                <rect key="frame" x="20" y="169" width="335" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="LhE-kv-m2f">
+                                <rect key="frame" x="20" y="198" width="335" height="29"/>
+                                <animations/>
+                                <segments>
+                                    <segment title="Bad 10%"/>
+                                    <segment title="Good 15%"/>
+                                    <segment title="Great 20%"/>
+                                </segments>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RQY-dT-udC">
+                                <rect key="frame" x="20" y="246" width="335" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Calculate Tip"/>
+                                <connections>
+                                    <action selector="calculateTip:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PJc-X3-HAb"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Tip" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ciu-LX-InL">
+                                <rect key="frame" x="20" y="302" width="335" height="21"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="drn-w3-zy5" secondAttribute="trailing" id="2W5-f3-cED"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="3Dx-Mk-O7l" secondAttribute="leading" id="7CB-nk-Xaw"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="O7f-Vs-Cuh" secondAttribute="leading" id="88g-Ti-4tH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="O7f-Vs-Cuh" secondAttribute="trailing" id="93c-go-pST"/>
+                            <constraint firstItem="O7f-Vs-Cuh" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="AuP-jX-uWV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="3Dx-Mk-O7l" secondAttribute="trailing" id="IsW-iJ-rRM"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="O86-Sc-a3R" secondAttribute="leading" id="J0V-dZ-aAa"/>
+                            <constraint firstItem="drn-w3-zy5" firstAttribute="top" secondItem="LgC-SP-Tj6" secondAttribute="bottom" constant="8" id="Jk5-cn-eve"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="O86-Sc-a3R" secondAttribute="trailing" id="Lci-ST-J6U"/>
+                            <constraint firstItem="O86-Sc-a3R" firstAttribute="top" secondItem="O7f-Vs-Cuh" secondAttribute="bottom" constant="8" id="Me5-RP-4fn"/>
+                            <constraint firstItem="LgC-SP-Tj6" firstAttribute="top" secondItem="O86-Sc-a3R" secondAttribute="bottom" constant="8" id="Ps6-F0-H5k"/>
+                            <constraint firstItem="LhE-kv-m2f" firstAttribute="top" secondItem="3Dx-Mk-O7l" secondAttribute="bottom" constant="8" id="Qsx-L1-6yp"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="LhE-kv-m2f" secondAttribute="trailing" id="Zus-ao-0OE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="RQY-dT-udC" secondAttribute="trailing" id="bd1-fc-8d9"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="LhE-kv-m2f" secondAttribute="leading" id="bej-0z-pMD"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="LgC-SP-Tj6" secondAttribute="trailing" id="bux-15-ff6"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="drn-w3-zy5" secondAttribute="leading" id="dx9-i9-HAx"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ciu-LX-InL" secondAttribute="trailing" id="gjO-ga-ue6"/>
+                            <constraint firstItem="3Dx-Mk-O7l" firstAttribute="top" secondItem="drn-w3-zy5" secondAttribute="bottom" constant="15" id="mk9-pN-h7a"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="ciu-LX-InL" secondAttribute="leading" id="par-j4-Cco"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="LgC-SP-Tj6" secondAttribute="leading" id="qAI-Bf-8WZ"/>
+                            <constraint firstItem="ciu-LX-InL" firstAttribute="top" secondItem="RQY-dT-udC" secondAttribute="bottom" constant="26" id="sCK-5W-55T"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="RQY-dT-udC" secondAttribute="leading" id="xbQ-KS-2Of"/>
+                            <constraint firstItem="RQY-dT-udC" firstAttribute="top" secondItem="LhE-kv-m2f" secondAttribute="bottom" constant="20" id="y5b-kD-11V"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="numberOfDiners" destination="drn-w3-zy5" id="kh9-zZ-zlj"/>
+                        <outlet property="segmentedService" destination="LhE-kv-m2f" id="QH9-2R-4mT"/>
+                        <outlet property="tipLabel" destination="ciu-LX-InL" id="jxT-dz-2Pu"/>
+                        <outlet property="totalInput" destination="O86-Sc-a3R" id="KYs-iE-U18"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="324.5" y="399.5"/>
         </scene>
     </scenes>
 </document>
